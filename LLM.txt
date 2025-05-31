@@ -1,0 +1,193 @@
+# WordPress.org Documentation - AI Agent Search Guide
+
+## Repository Overview
+This repository contains 331 pages of official WordPress.org developer documentation, organized into 4 main categories. All content is sourced from WordPress.org's official developer handbooks and provides comprehensive guidance for WordPress development, plugin creation, theme development, and API integration.
+
+## Content Categories & Statistics
+
+### 1. Plugin Development (`plugins/` - 102 documents)
+**Focus**: Complete WordPress plugin development guidance
+- **Plugin Development**: Creating WordPress plugins from scratch
+- **Hooks & Filters**: WordPress action and filter system
+- **Database Operations**: WordPress database interaction and custom tables
+- **Security**: Plugin security best practices and sanitization
+- **Admin Interface**: Creating admin menus and settings pages
+- **AJAX Integration**: Implementing AJAX functionality in plugins
+
+### 2. Theme Development (`themes/` - 137 documents)
+**Focus**: WordPress theme creation and customization
+- **Theme Architecture**: Custom WordPress theme creation
+- **Template Hierarchy**: WordPress template system and structure
+- **Theme Customizer**: Theme customization options and controls
+- **Block Themes**: Full Site Editing and block-based themes
+- **Child Themes**: Safe theme customization practices
+- **Performance**: Theme optimization and best practices
+
+### 3. REST API Documentation (`rest-api/` - 62 documents)
+**Focus**: WordPress REST API integration and development
+- **API Endpoints**: WordPress REST API reference and documentation
+- **Authentication**: API security and access control methods
+- **Custom Endpoints**: Creating custom API routes and controllers
+- **Integration**: Third-party service integration patterns
+- **Client Development**: Frontend and mobile app integration
+
+### 4. WP-CLI Commands (`cli/` - 30 documents)
+**Focus**: Command-line WordPress management and automation
+- **WP-CLI Commands**: Command-line WordPress management tools
+- **Automation**: Scripting and workflow automation
+- **Deployment**: Site deployment and management strategies
+- **Maintenance**: Site maintenance and update procedures
+
+## Search Strategies for AI Agents
+
+### Plugin Development Queries
+**Effective search patterns:**
+```
+wordpress plugin development basics
+plugin hooks actions filters
+wordpress database operations
+plugin security sanitization
+admin menu creation wordpress
+custom post types plugins
+plugin ajax implementation
+wordpress plugin testing
+```
+
+**Key areas to search:**
+- Plugin architecture and file structure
+- WordPress hooks system (actions and filters)
+- Database operations and custom tables
+- Admin interface and menu creation
+- Plugin security and best practices
+- Custom post types and meta fields
+
+### Theme Development Queries
+**Effective search patterns:**
+```
+wordpress theme development
+template hierarchy wordpress
+theme functions php
+child theme creation
+theme customization hooks
+wordpress theme security
+responsive theme design
+block theme development
+```
+
+**Key areas to search:**
+- Template hierarchy and structure
+- Theme functions and hooks
+- Custom theme development
+- Child themes and customization
+- Block themes and Full Site Editing
+- Theme performance optimization
+
+### REST API Integration Queries
+**Effective search patterns:**
+```
+wordpress rest api endpoints
+custom rest api endpoints
+wordpress api authentication
+rest api client integration
+wordpress api error handling
+rest api performance
+headless wordpress setup
+```
+
+**Key areas to search:**
+- REST API endpoint reference
+- Custom endpoint creation
+- API authentication methods
+- Client-side API integration
+- Error handling and responses
+- Performance considerations
+
+### WP-CLI Operation Queries
+**Effective search patterns:**
+```
+wp-cli commands reference
+wordpress command line
+wp-cli database management
+wp-cli automation scripts
+wordpress cli configuration
+wp-cli plugin management
+site deployment cli
+```
+
+**Key areas to search:**
+- Command reference and usage
+- Database management commands
+- Plugin and theme management
+- Automation and scripting
+- Configuration and setup
+
+## AI Agent Search Recommendations
+
+### For Development Questions:
+1. **Category First**: Identify if question relates to plugins, themes, REST API, or CLI
+2. **WordPress Terminology**: Use specific WordPress terms (hooks, actions, filters, template hierarchy)
+3. **Security Focus**: Always check security-related documentation for implementations
+4. **Code Examples**: Many documents include practical code examples and patterns
+5. **Cross-Reference**: WordPress concepts often span multiple documentation areas
+
+### For Implementation Guidance:
+1. **Official Source**: Treat as authoritative WordPress development documentation
+2. **Best Practices**: Look for "best practices" sections in relevant documentation
+3. **Security First**: WordPress security considerations are integrated throughout
+4. **Performance**: Consider performance implications mentioned in documentation
+5. **Standards**: Follow WordPress coding standards documented throughout
+
+## Common Search Scenarios
+
+### "How to create a WordPress plugin?"
+- **Start with**: `/plugins/Plugin_Handbook_Developer.WordPress.org.md`
+- **Architecture**: `/plugins/plugin-basics/` directory
+- **Security**: `/plugins/security/` documentation
+- **Database**: `/plugins/creating-tables-with-plugins/`
+
+### "WordPress REST API custom endpoints"
+- **Primary**: `/rest-api/extending-the-rest-api/adding-custom-endpoints/`
+- **Authentication**: `/rest-api/using-the-rest-api/authentication/`
+- **Reference**: `/rest-api/reference/` for endpoint patterns
+- **Integration**: Client-side implementation guides
+
+### "Theme customization and hooks"
+- **Start with**: `/themes/Theme_Handbook_Developer.WordPress.org.md`
+- **Hooks**: `/themes/basics/theme-functions/`
+- **Child themes**: `/themes/advanced-topics/child-themes/`
+- **Templates**: `/themes/template-files-section/`
+
+### "WP-CLI automation scripts"
+- **Commands**: `/cli/commands/` directory for specific references
+- **Automation**: Look for command examples and scripting patterns
+- **Configuration**: Setup and configuration documentation
+
+### "WordPress security best practices"
+- **Plugins**: `/plugins/security/` - Plugin-specific security
+- **Themes**: `/themes/theme-security/` - Theme security considerations
+- **API**: `/rest-api/` - API authentication and security
+- **General**: Security patterns throughout all documentation
+
+## Integration Notes for MCP Servers
+
+### Content Characteristics:
+- **Official Documentation**: Direct from WordPress.org developer team
+- **Comprehensive Coverage**: Complete development handbook collection (331 pages)
+- **Code Examples**: Extensive PHP code samples and implementation patterns
+- **Security Integration**: Security best practices embedded throughout
+- **Standards Compliance**: WordPress coding standards and conventions
+
+### Recommended Usage:
+- **Primary Resource**: Authoritative source for WordPress development questions
+- **Code Generation**: Use examples and patterns for generating WordPress code
+- **Security Guidance**: Essential for secure WordPress development
+- **Best Practices**: Follow documented WordPress development standards
+- **Architecture**: Understand WordPress hooks, filters, and template systems
+
+### Authority Level: Maximum
+- **Source**: Official WordPress.org developer documentation
+- **Accuracy**: Maintained by WordPress core development team
+- **Currency**: Reflects current WordPress standards and practices
+- **Scope**: Complete coverage of WordPress development ecosystem
+
+This repository serves as the definitive guide for WordPress development, suitable for answering complex development questions, generating secure WordPress code, and ensuring compliance with WordPress standards and best practices.
